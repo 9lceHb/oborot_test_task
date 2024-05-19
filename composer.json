@@ -1,0 +1,23 @@
+{
+    "name": "sergei/oborot",
+    "description": "Test task",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "s.yasinskiy",
+            "email": "yasen20008@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^10.48"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.4",
+        "phpunit/phpunit": "^10.5"
+    }
+}
